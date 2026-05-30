@@ -1,9 +1,9 @@
-/* Global things */
+lobal things */
 body {
 	color: var(--color);
 	overflow: hidden;
 	--background: #0f0f0f;
-	--color: #dfdfdf;
+	--color: #8fe96c;
 	--points: #ffffff;
 	background: var(--background)
 }
@@ -11,7 +11,7 @@ body {
 /* General text */
 h1, h2, h3, b, input {
 	display: inline;
-	font-family: "Lucida Console", "Courier New", monospace
+	font-family: "Comic Neue Angular", "Arial Black", "Segoe UI"
 }
 
 /* These are styles for different states of components. You can make layer-specific versions with .c.locked, for example */
