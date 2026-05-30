@@ -133,11 +133,6 @@ return player.points.add(1).log10().add(1).pow(25).min(3)
         body() { return "You found yourself in a reality that were once third dimension... now was collapsed to two dimensions, Thus also comes with pre-TFirD progression to introduce the seemingly 'endless' journey... [Yes, this is an offical port of SamDBI v4, as this is made by the owner of ROBLOX's SamDBI v4, Call this SamDBI v5: Outblox-platformized if you want, But this will be similar to SamDBI v4, Except the introductory]" },
         
     },
-     b: {
-        title: "The asdasda",
-        body() { return "Yo" },
-        
-    },
     },
     layerShown() {return true}
 })
@@ -298,35 +293,4 @@ addLayer("b", {
     },
     },
     layerShown() {return true}
-})
-
-addLayer("ach", {
-    name: "Achievements", // This is optional, only used in a few places, If absent it just uses the layer id.
-    symbol: "[A]", // This appears on the layer's node. Default is the id with the first letter capitalized
-    startData() { return {
-        unlocked: true,
-    }},
-    color: "#fcff53",
-    row: "side", // Row the layer is in on the tree (0 is the first row)
-    achievements: {
-    11: {
-        name: "Purgatorio",
-        done() {return true},
-        tooltip: "it is free bro",
-
-    },
-    12: {
-        name: "This is not SamDBIv4?",
-        done() {return hasUpgrade("c", 11)},
-          tooltip: "obtain the first upgrade",
-        unlocked() {return true},
-    },
-     13: {
-        name: "Super Hardercapped",
-        done() {return hasUpgrade("c", 13)},
-        tooltip: "obtain the third upgrade",
-        unlocked() {return true},
-    },
-   },
-
 })
